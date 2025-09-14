@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="site">
+    <div class="layout">
+        <header class="layout__header">
+            <h1 class="layout__title"> facebook </h1>
+            <div class="search__container">
+                <input type="text" class="search__input" placeholder="Buscar...">
+            </div>
+        </header>
+        <main class="layout__main">
+            <section id="personal">
+                <img src="img/profile.jpg" alt="profile_photo">
+                <h2 id="name">Nombre</h2>
+                <h2><a href="views/info.html">Info</a></h2>
+                <h2 >X amigos</h2>
+                <section class="friends">
+                    <img src="img/friend1.jpg" alt="friend_photo" id="friend1">
+                    <img src="img/friend2.jpg" alt="friend_photo" id="friend2">
+                    <img src="img/friend3.png" alt="friend_photo" id="friend3">
+                </section>
+                <h2 style="font-weight: bold;"> Ver todos</h2>
+            </section>
+            <nav id="app-nav">
+                <section class="nav-buttons">
+                    <h2><a href="wall.html">Muro</a>
+                    <a href="info.html">Info</a>
+                    <a href="photos.html">Fotos</a>
+                </section>
+                <section id="app-content">
+                    <div id="publication-container">
+                        <input type="text" class="search__input" placeholder="Escribe lo que piensas...">
+                    </div>
+                    <div id="publication-options">
+                        <h2>Adjuntar +</h2>
+                        <h2 id="share">Compartir</h2>
+                    </div>
+                </section>
+            </nav>
+        </main>
+    </div>
+    <script src="routes.js"></script>
+</body>
+</html>
